@@ -3,7 +3,6 @@ import requests
 consultar_cep = int(input("Digite seu CEP: "))
 lista_ceps = []
 lista_ceps.append('{}'.format(consultar_cep))
-print(lista_ceps)
 lista_endereco = []
 
 for cep in lista_ceps:
